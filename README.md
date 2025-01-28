@@ -11,9 +11,11 @@ Imagine que você está desenvolvendo uma aplicação onde não é permitido uti
 
 ## Exemplo:
 javascript
+```
 const array = [2, 3, 4];
 const resultado = multiplicaComSomas(array);
 console.log(resultado); // Saída: 24
+```
 
 
 ## Dica:
