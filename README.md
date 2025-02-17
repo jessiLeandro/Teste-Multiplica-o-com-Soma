@@ -11,11 +11,41 @@ Imagine que você está desenvolvendo uma aplicação onde não é permitido uti
 
 ## Exemplo:
 javascript
-```
+
 const array = [2, 3, 4];
 const resultado = multiplicaComSomas(array);
 console.log(resultado); // Saída: 24
-```
+
+
+const array = [2, 0, 4];
+const resultado = multiplicaComSomas(array);
+console.log(resultado); // Saída: 0
+
+
+const array = [2, f, 4];
+const resultado = multiplicaComSomas(array);
+console.log(resultado); // Saída: null
+
+
+const array = [2];
+const resultado = multiplicaComSomas(array);
+console.log(resultado); // Saída: 2
+
+
+const array = [];
+const resultado = multiplicaComSomas(array);
+console.log(resultado); // Saída: null
+
+
+const array = [2, -3, 4];
+const resultado = multiplicaComSomas(array);
+console.log(resultado); // Saída: -24
+
+
+const array = [2, -3, -4];
+const resultado = multiplicaComSomas(array);
+console.log(resultado); // Saída: 24
+
 
 
 ## Dica:
